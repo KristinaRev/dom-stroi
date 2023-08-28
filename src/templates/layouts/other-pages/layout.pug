@@ -1,0 +1,16 @@
+//- variables
+block variables
+  include ../../abstracts/variables
+
+//- mixins
+
+doctype html
+html(lang="ru")
+  head
+    include ../main/head
+  body
+    //include ../../sections/global/preloader
+    include ../main/header
+    main
+      block content
+    include ../main/footer
