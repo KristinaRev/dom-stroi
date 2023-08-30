@@ -3,3 +3,64 @@
 @use '../../abstracts/extends' as *
 
 .header
+  padding: 17px 71px
+  box-sizing: border-box
+  display: flex
+  justify-content: space-between
+  background-color: $white
+  margin:  0 auto
+  max-width: 1366px
+  gap: 100px
+
+  &-logo
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 1px
+
+    p
+      +font(12px, 14px, 600)
+      color: $gray7
+
+  &-menu
+    display: flex
+    gap: 105px
+    align-items: center
+
+    &-info
+      display: flex
+      flex-direction: column
+      gap: 8px
+      align-items: flex-end
+
+      p
+        color: $gray8
+        +font(14px, 17px, 400)
+        white-space: nowrap
+
+        a
+          color: $blue
+
+    &-phones
+      display: flex
+      flex-direction: column
+      gap: 8px
+
+      a
+        color: $blue
+        +font(14px, 17px, 400)
+        white-space: nowrap
+
+    &-btns
+      display: flex
+      flex-direction: column
+      gap: 8px
+      align-items: center
+
+      &-links
+        display: flex
+        gap: 10px
+
+
+
+

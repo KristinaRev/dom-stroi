@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *
+@use '../abstracts/mixins' as *
+@use '../abstracts/extends' as *
+
+.btn
+  cursor: pointer
+
+  &-trans
+    text-transform: uppercase
+    +font(12px, 14px, 700)
+    color: $blue
+    padding: 14px 39px 13px
+    border: 1px solid $blue
+    border-radius: 25px
+    white-space: nowrap
+    background-color: transparent
